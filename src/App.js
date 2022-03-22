@@ -3,6 +3,7 @@ import './styles/App.css';
 import MyButton from './components/UI/button/MyButton';
 import MyInput from './components/UI/input/MyInput';
 import Multilineinput from './components/UI/multiline-input/MultilineInput';
+import Header from './components/Header/Header';
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
 
   return (
     <div className='App'>
+      <Header name="Имя Фамилия"/>
       <MyButton classMod="button_1" disabled='disabled'>BUTTON</MyButton>
       <MyButton classMod="button_2">BUTTON</MyButton>
       <MyButton classMod="button_icon">BUTTON</MyButton>

@@ -10,6 +10,7 @@
     font-weight: 600;
     font-size: 18px;
     line-height: 52px;
+    width: max-content;
 }
 
 .myBtn span{
@@ -62,10 +63,11 @@
 .button_icon::before{
     content: '';
     display: block;
-    margin: auto 11px auto 0;
+    margin: auto 5px auto 0;
     color: var(--white);
-    background-image: url(./../../../../public/static/icons/white-plus.png);
-    width: 18px;
+    background: url(./../../../static/icons/white-plus.png) no-repeat;
+
+    width: 25px;
     height: 18px;
     z-index: 1000;
 }

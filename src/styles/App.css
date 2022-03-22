@@ -3,6 +3,7 @@
 @import './../components/UI/input/MyInput.module.css';
 @import './../components/UI/input-error/InputError.module.css';
 @import './../components/UI/multiline-input/MultilineInput.module.css';
+@import './../components/Header/Header.module.css';
 
 *,
 *::before,
@@ -10,6 +11,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    width: 100%;
 }
 
 #root{

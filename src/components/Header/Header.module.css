@@ -1,0 +1,39 @@
+.header{
+    width: 100%;
+    height: 116px;
+    background-color: var(--white);
+}
+.header__container{
+    max-width: var(--container);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    margin: 0 auto;
+}
+.header__user{
+    display: flex;
+    width: max-content;
+    align-items: center;
+}
+.header__username{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+    color: var(--main-text);
+    margin-left: 20px;
+}
+
+.header__avatar{
+    width: 52px;
+    height: 52px;
+    border: 1px solid var(--light-grey);
+    background-color: var(--white);
+}
+
+.header__logo{
+    width: 86px;
+    height: 52px;
+}
