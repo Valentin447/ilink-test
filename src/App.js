@@ -4,6 +4,7 @@ import MyButton from './components/UI/button/MyButton';
 import MyInput from './components/UI/input/MyInput';
 import Multilineinput from './components/UI/multiline-input/MultilineInput';
 import Header from './components/Header/Header';
+import Footer from './components/Footer/Footer';
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         <Multilineinput classmod="" type="text"  placeholder="Placeholder" label="Input"/>
         <MyInput classmod="" type="text" placeholder="Placeholder" label="Input"/>
       </form>
+      <Footer/>
     </div>
   );
 }
