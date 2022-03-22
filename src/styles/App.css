@@ -5,6 +5,7 @@
 @import './../components/UI/multiline-input/MultilineInput.module.css';
 @import './../components/Header/Header.module.css';
 @import './../components/Footer/Footer.module.css';
+@import './../components/Comment/Comment.module.css';
 
 *,
 *::before,

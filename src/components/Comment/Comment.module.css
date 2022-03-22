@@ -1,0 +1,55 @@
+.comment{
+    max-width: 519px;
+    padding: 24px;
+    background-color: var(--light-grey-2);
+}
+
+.comment__info{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+
+.comment__avatar-default{
+    width: 52px;
+    height: 52px;
+    background: url(./../../static/img/avatars/no-avatar.jpg);
+    border-radius: 2px;
+}
+
+.comment__user{
+    display: flex;
+    align-items: center;
+}
+
+.comment__user-name{
+    width: max-content;
+    height: max-content;
+    margin-left: 20px;
+    font-family: 'Factor A';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: var(--main-text);
+}
+
+.comment__date{
+    width: max-content;
+    height: max-content;
+    font-family: 'Factor A';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: var(--grey);
+}
+
+.comment__text{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: var(--main-text);
+}
