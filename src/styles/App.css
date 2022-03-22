@@ -1,5 +1,8 @@
 @import 'fonts.css';
 @import './../components/UI/button/MyButton.module.css';
+@import './../components/UI/input/MyInput.module.css';
+@import './../components/UI/input-error/InputError.module.css';
+@import './../components/UI/multiline-input/MultilineInput.module.css';
 
 *,
 *::before,
