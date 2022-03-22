@@ -1,0 +1,34 @@
+.myInput {
+    width: 100%;
+    height: 52px;
+    padding: 0 12px;
+    border: 1px solid var(--light-grey);
+    border-radius: 2px;
+    cursor: text;
+    color: var(--main-text);
+}
+.myInput::placeholder{
+    color: var(--grey);
+}
+.myInput:focus{
+    border: 1px solid var(--purple);
+    outline: none;
+}
+
+.myInput:disabled{
+    border: 1px solid var(--light-grey);
+    outline: none;
+    cursor: default;
+}
+.myInput::after{
+    content: '';
+}
+
+.inputLabel{
+    font-family: 'Factor A';
+    font-size: 14px;
+    line-height: 20px;
+    font-style: normal;
+    font-weight: 500;
+    color: var(--main-text);
+}
