@@ -1,6 +1,7 @@
 import React from 'react';
 import MyButton from './../UI/button/MyButton';
 import avatar from './../../static/img/avatars/no-avatar.jpg';
+import avatar1 from './../../static/img/avatars/user-id-1.jpg';
 import logo from './../../static/icons/ilink-academy.png';
 import classes from './Header.module.css';
 
@@ -11,10 +12,12 @@ const Header = (props) => {
         <header className={classes.header}>
             <div className='header__container'>
                 <div className='header__user'>
-                    <img className='header__avatar' src={avatar} alt='' />
+                    <img className='header__avatar' src={avatar1} alt='' />
                     <span className='header__username'>{props.name}</span>
                 </div>
-                <img className='header__logo' src={logo} alt=''></img>
+                <div className='header__logo-wrap'>
+                    <img className='header__logo' src={logo} alt=''></img>
+                </div>
                 <MyButton classMod="button_2">Панель управления</MyButton>
             </div>
         </header>

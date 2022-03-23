@@ -9,6 +9,7 @@
 @import './../components/Slider/Slider.module.css';
 @import './../components/UI/button-arrow/ButtonArrow.module.css';
 @import './../components/SliderNavigation/SliderNavigation.module.css';
+@import './../components/Presentation/Presentation.module.css';
 
 *,
 *::before,
@@ -16,7 +17,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    width: 100%;
 }
 
 #root{
@@ -44,5 +44,12 @@
 }
 
 .App{
+    width: 100%;
     background-color: var(--purple);
+}
+.background-img{
+    height: 1380px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
 }

@@ -1,15 +1,16 @@
 .slider__navigation{
     display: flex;
     justify-content: center;
-    height: 4px;
+    height: 3px;
+    width: 100%;
 }
 .slider-navigation-page{
-    width: 16px;
+    width: 12px;
     border-bottom: 4px solid var(--purple);
     opacity: 0.3;
     margin: 0 4px;
 }
 .slider-navigation-focus-page{
-    width: 32px;
+    width: 24px;
     opacity: 1;
 }

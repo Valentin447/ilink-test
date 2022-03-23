@@ -1,8 +1,9 @@
 .slider {
     position: relative;
     display: flex;
-    max-height: 525px;
+    height: max-content;
     z-index: 100;
+    margin: 120px 0 106px 0;
 }
 .slider__white-background-left {
     position: absolute;
@@ -28,13 +29,14 @@
     background: var(--white);
     border-radius: 2px;
     max-width: 1118px;
-    padding: 56px 56px 0 0;
+    padding: 62px 56px 0 0;
 }
 .slider__top {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 56px;
+    margin-bottom: 32px;
     z-index: 100;
+    align-items: center;
 }
 .slider__title {
     font-family: "Factor A";
@@ -44,6 +46,12 @@
     line-height: 88px;
     color: var(--main-text);
     width: max-content;
+    letter-spacing: -0.0124em;
+}
+.slider__button-add{
+    position: relative;
+    bottom: 6px;
+    left: 1px;
 }
 .slider__center {
     display: flex;

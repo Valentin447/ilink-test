@@ -5,6 +5,7 @@
 }
 .header__container{
     max-width: var(--container);
+    position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -33,7 +34,15 @@
     background-color: var(--white);
 }
 
+.header__logo-wrap{
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
 .header__logo{
+    display: block;
+    margin: 0 auto;
     width: 86px;
     height: 52px;
 }

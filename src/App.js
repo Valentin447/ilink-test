@@ -7,6 +7,8 @@ import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import Comment from './components/Comment/Comment';
 import Slider from './components/Slider/Slider';
+import Presentation from './components/Presentation/Presentation';
+import backgroundImg from './static/icons/vector.svg';
 
 
 function App() {
@@ -14,7 +16,9 @@ function App() {
 
   return (
     <div className='App'>
-      <Header name="Имя Фамилия"/>
+      <img className='background-img' src={backgroundImg} alt=''/>
+      <Header name="Яна Валиева"/>
+      <Presentation/>
       <Slider/>
 
       {/* <Comment userName="Буба Бубенцов" avatar={avatarUser4} date='08.01.2022'>Отличный коллектив, руководители понимают сам процесс работы каждого сотрудника и помогают всем без исключения. Система KPI позволяет реально хорошо зарабатывать по простому принципу - чем больше и лучше ты работаешь, тем больше денег получаешь. Соцпакет - отличная страховка ДМС, организовали курсы английского языка бесплатно, оплачивают тренажерный зал. Зарплату выплачивают всегда вовремя.</Comment>

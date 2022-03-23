@@ -1,0 +1,110 @@
+.presentation__container{
+    max-width: var(--container);
+    margin: 0 auto;
+}
+.presentation__title{
+    font-family: 'Factor A';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 124px;
+    line-height: 148px;
+    color: var(--white);
+    letter-spacing: -0.0124em;
+    margin: 103px 0 110px 0 ;
+    padding-right: 100px;
+}
+.presentation__info{
+    display: flex;
+}
+.presentation__foto{
+    max-width: 519px;
+    max-height: 383px;
+    border-radius: 2px;
+}
+.presentation__card{
+    background: var(--white);
+    border-radius: 2px;
+    display: flex;
+    flex-direction: column;
+
+    position: relative;
+    bottom: 32px;
+    padding: 43px 40px;
+}
+.presentation__card-top{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.presentation__name{
+    font-family: 'Factor A';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+    color: var(--purple);
+}
+.presentation__date{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: var(--grey);
+    letter-spacing: 0.01em;
+    width: max-content;
+}
+.presentation__card-data{
+    display: flex;
+    min-height: 59px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.presentation__city,
+.presentation__sex,
+.presentation__age,
+.presentation__about-me,
+.presentation__pet{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    color: var(--main-text);
+    width: max-content;
+}
+.presentation__city{
+    margin-right: 40px;
+}
+.presentation__sex{
+    display: flex;
+    width: max-content;
+    margin-right: 44px;
+}
+.presentation__sex-icon{
+    position: relative;
+    top: 2px;
+    display: block;
+    height: 18px;
+    width: 10px;
+    margin-left: 10px;
+}
+.presentation__about-me-div{
+    height: 100%;
+}
+.presentation__about-me{
+    width: 100%;
+    height: auto;
+}
+.presentation__pet{
+    display: flex;
+}
+.presentation__pet::before{
+    content: '';
+    display: inline-flex;
+    background: url(./../../static/icons/dog-food.png) no-repeat;
+    height: 23px;
+    width: 32px;
+    padding-right: 44px;
+}

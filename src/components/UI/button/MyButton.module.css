@@ -11,6 +11,7 @@
     font-size: 18px;
     line-height: 52px;
     width: max-content;
+    letter-spacing: 0.01em;
 }
 .myBtn span{
     z-index: 1000;
