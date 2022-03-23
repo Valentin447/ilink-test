@@ -6,6 +6,9 @@
 @import './../components/Header/Header.module.css';
 @import './../components/Footer/Footer.module.css';
 @import './../components/Comment/Comment.module.css';
+@import './../components/Slider/Slider.module.css';
+@import './../components/UI/button-arrow/ButtonArrow.module.css';
+@import './../components/SliderNavigation/SliderNavigation.module.css';
 
 *,
 *::before,
@@ -38,4 +41,8 @@
     --breakpoint-xl: 1200px;
 
     --container: 1280px;
+}
+
+.App{
+    background-color: var(--purple);
 }

@@ -4,7 +4,7 @@ import "./MyButton.module.css";
 
 const Mybutton = ({children, ...props}) => {
     return (
-        <button className={classes.myBtn + " " + props.classMod}>
+        <button className={classes.myBtn + " " + props.classMod + " " + props.className}>
             <span>{children}</span>
         </button>
     );

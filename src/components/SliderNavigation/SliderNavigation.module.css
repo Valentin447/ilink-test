@@ -1,0 +1,15 @@
+.slider__navigation{
+    display: flex;
+    justify-content: center;
+    height: 4px;
+}
+.slider-navigation-page{
+    width: 16px;
+    border-bottom: 4px solid var(--purple);
+    opacity: 0.3;
+    margin: 0 4px;
+}
+.slider-navigation-focus-page{
+    width: 32px;
+    opacity: 1;
+}
