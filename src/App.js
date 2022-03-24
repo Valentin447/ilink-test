@@ -9,6 +9,7 @@ import Comment from './components/Comment/Comment';
 import Slider from './components/Slider/Slider';
 import Presentation from './components/Presentation/Presentation';
 import backgroundImg from './static/icons/vector.svg';
+import Form from './components/Form/Form';
 
 
 function App() {
@@ -16,21 +17,26 @@ function App() {
 
   return (
     <div className='App'>
-      <img className='background-img' src={backgroundImg} alt=''/>
-      <Header name="Яна Валиева"/>
-      <Presentation/>
-      <Slider/>
+      <Form />
+      <div className='blackout'></div>
+      <div className='blur'>
+        <img className='background-img' src={backgroundImg} alt='' />
 
-      {/* <Comment userName="Буба Бубенцов" avatar={avatarUser4} date='08.01.2022'>Отличный коллектив, руководители понимают сам процесс работы каждого сотрудника и помогают всем без исключения. Система KPI позволяет реально хорошо зарабатывать по простому принципу - чем больше и лучше ты работаешь, тем больше денег получаешь. Соцпакет - отличная страховка ДМС, организовали курсы английского языка бесплатно, оплачивают тренажерный зал. Зарплату выплачивают всегда вовремя.</Comment>
-      <MyButton classMod="button_1" disabled='disabled'>BUTTON</MyButton>
-      <MyButton classMod="button_2">BUTTON</MyButton>
-      <MyButton classMod="button_icon">BUTTON</MyButton>
-      <form>
-        <MyInput classmod="myInput_mod_error" type="text" placeholder="Placeholder" label="Input" error="Error" counter={'0/200'}/>
-        <Multilineinput classmod="" type="text"  placeholder="Placeholder" label="Input"/>
-        <MyInput classmod="" type="text" placeholder="Placeholder" label="Input"/>
-      </form> */}
-      <Footer/>
+        <Header name="Яна Валиева" />
+        <Presentation />
+        <Slider />
+
+        {/* <Comment userName="Буба Бубенцов" avatar={avatarUser4} date='08.01.2022'>Отличный коллектив, руководители понимают сам процесс работы каждого сотрудника и помогают всем без исключения. Система KPI позволяет реально хорошо зарабатывать по простому принципу - чем больше и лучше ты работаешь, тем больше денег получаешь. Соцпакет - отличная страховка ДМС, организовали курсы английского языка бесплатно, оплачивают тренажерный зал. Зарплату выплачивают всегда вовремя.</Comment>
+        <MyButton classMod="button_1" disabled='disabled'>BUTTON</MyButton>
+        <MyButton classMod="button_2">BUTTON</MyButton>
+        <MyButton classMod="button_icon">BUTTON</MyButton>
+        <form>
+          <MyInput classmod="myInput_mod_error" type="text" placeholder="Placeholder" label="Input" error="Error" counter={'0/200'}/>
+          <Multilineinput classmod="" type="text"  placeholder="Placeholder" label="Input"/>
+          <MyInput classmod="" type="text" placeholder="Placeholder" label="Input"/>
+        </form> */}
+        <Footer />
+      </div>
     </div>
   );
 }

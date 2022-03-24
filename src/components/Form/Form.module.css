@@ -1,0 +1,60 @@
+.myform{
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    margin: 10% auto;
+    max-width: 676px;
+    max-height: 443px;
+    background-color: var(--white);
+    padding: 24px;
+    z-index: 1000;
+}
+.myform__top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 31px;
+}
+.myform__title{
+    font-family: 'Factor A';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -0.0124em;
+}
+.myform__button-close{
+    background: none;
+    border: none;
+}
+.myform__mid{
+    display: flex;
+    margin-top: 51px;
+    justify-content: space-between;
+}
+.myform__input-name{
+    flex: 1;
+    margin-right: 15px;
+}
+.myform__comment-text{
+    margin-top: 64px;
+}
+.myform__bottom{
+    display: flex;
+    align-items: center;
+}
+.myform__info-icon{
+    display: block;
+    height: 18px;
+    width: 18px;
+    margin: 0 10px 0 17px;
+}
+.myform__info-text{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: var(--grey);
+}

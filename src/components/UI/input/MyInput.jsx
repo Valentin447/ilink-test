@@ -6,9 +6,8 @@ const MyInput = (props) => {
     const [value, setValue] = useState('');
     return (
         <div className={classes.myInput + ' ' + props.classmod}>
-            <label className={'inputLabel'} disablet={props.disablet}>{props.label}
+            <label className={'inputLabel'} disablet={props.disablet}>{props.label}</label>
                 <input value={value} onChange={event => setValue(event.target.value)} className={classes.myInputBody} {...props} />
-            </label>
             <div className={'myInput__error'}>
                 <div className={'myInput__errorX'}>
                     <div className={'myInput__errorX1'}></div>

@@ -1,6 +1,9 @@
 
 .myInput{
+    display: block;
     position: relative;
+    flex: 1;
+    width: 100%;
 }
 
 .myInputBody {
@@ -21,6 +24,7 @@
 }
 
 .myInput:disabled .myInputBody{
+    display: block;
     border: 1px solid var(--light-grey);
     outline: none;
     cursor: default;
@@ -30,10 +34,13 @@
 }
 
 .inputLabel{
+    position: absolute;
+    top: -32px;
     font-family: 'Factor A';
-    font-size: 14px;
+    font-size: 16px;
     line-height: 20px;
     font-style: normal;
     font-weight: 500;
     color: var(--main-text);
+    letter-spacing: -0.0124em;
 }

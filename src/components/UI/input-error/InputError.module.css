@@ -1,5 +1,5 @@
 .inputError{
-    display: flex;
+    display: none;
     flex-direction: row;
     align-items: top;
     height: 40px;
@@ -36,4 +36,7 @@
     height: 8px;
     border-left: 1px solid var(--red);
     transform: translateX(3.5px);
+}
+.is-error{
+    display: flex;
 }
