@@ -15,6 +15,7 @@
     background-color: var(--white);
     z-index: 1;
 }
+
 .slider__container {
     max-width: var(--container);
     margin: 0 auto;
@@ -22,6 +23,7 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+    flex-wrap: wrap;
 }
 .slider__comments {
     display: flex;
@@ -48,6 +50,9 @@
     width: max-content;
     letter-spacing: -0.0124em;
 }
+.slider__title:hover{
+    cursor: default;
+}
 .slider__button-add{
     position: relative;
     bottom: 6px;
@@ -57,6 +62,10 @@
     display: flex;
     z-index: 100;
 }
+.slider__center > div{
+    flex-grow: 0.5;
+}
+
 .slider__center div + div {
     margin-left: 24px;
 }
@@ -73,4 +82,72 @@
 .slider__arrow-buttons{
     height: max-content;
     width: max-content;
+}
+
+@media (max-width: 1312px) {
+    .slider__container{margin: 0 16px;}
+}
+@media (max-width: 1294px) {
+    .slider__arrow-buttons{
+        display: flex;
+        position: relative;
+        left: -20px;
+        padding: 16px 0 0 487px;
+        background-color: var(--purple);
+        z-index: 100;
+        width: 100%;
+    }
+    .slider__arrow-buttons::after{
+        content: '';
+        position: absolute;
+        width: 30px;
+        height: 100px;
+        background: var(--purple);
+        left: -20px;
+        top: 0;
+    }
+}
+@media (max-width: 1140px) {
+    .slider__arrow-buttons{
+        justify-content: center;
+        left: 0;
+        padding: 16px 0 0 0;
+    }
+    .slider__comments {
+        padding: 40px 16px 0 0 ;
+    }
+}
+@media (max-width: 1290px) {
+    .slider__white-background-left{width: 16;}
+}
+@media (max-width: 816px) {
+    .slider__center div + div {
+        display: none;
+    }
+    .slider__title{
+        font-size: 32px;
+        line-height: 42px;
+    }
+}
+@media (max-width: 576px) {
+    .slider{
+        margin: 57px 0 82px 0;
+    }
+    .slider__button-add span{
+        display: none;
+    }
+    .slider__button-add::after{
+        opacity: 0.1;
+        background: var(--white);
+        z-index: 101;
+    }
+    .slider__button-add{
+        height: 42px;
+        width: 42px;
+        padding: 0;
+        justify-content: center;
+    }
+    .slider__button-add::before{
+        margin: 0;
+    }
 }

@@ -15,7 +15,9 @@
     fill-opacity: 0;
     margin: auto;
 }
-
+.arrow-button:hover{
+    cursor: pointer;
+}
 .arrow-button:hover .button-arrow-icon{
     stroke: var(--purple);
 }

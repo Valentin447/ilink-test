@@ -18,7 +18,7 @@ const Header = (props) => {
                 <div className='header__logo-wrap'>
                     <img className='header__logo' src={logo} alt=''></img>
                 </div>
-                <MyButton classMod="button_2">Панель управления</MyButton>
+                <MyButton classMod="button_2" className='header__button'>Панель управления</MyButton>
             </div>
         </header>
     );

@@ -10,6 +10,7 @@ import Slider from './components/Slider/Slider';
 import Presentation from './components/Presentation/Presentation';
 import backgroundImg from './static/icons/vector.svg';
 import Form from './components/Form/Form';
+import Flashmessage from './components/FlashMessage/FlashMessage';
 
 
 function App() {
@@ -17,9 +18,10 @@ function App() {
 
   return (
     <div className='App'>
-      <Form />
+      {/* <Form /> */}
       <div className='blackout'></div>
       <div className='blur'>
+        {/* <Flashmessage classMod='flash-message-success-mob'/> */}
         <img className='background-img' src={backgroundImg} alt='' />
 
         <Header name="Яна Валиева" />

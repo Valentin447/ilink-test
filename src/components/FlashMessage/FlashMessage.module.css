@@ -1,0 +1,56 @@
+.flash-message{
+    position: fixed;
+    z-index: 1000;
+}
+.flash-message__button-close{
+    position: absolute;
+    right: 25px;
+    top: 71px;
+    height: 18px;
+    width: 18px;
+}
+.flash-message__button-close:hover{
+    background: url(./../../static/icons/x.png) no-repeat;
+    cursor: pointer;
+}
+
+
+.flash-message-success{
+    width: 438px;
+    height: 174px;
+    right: 40px;
+    bottom: 104px;
+    background: url(./../../static/icons/flash-message-success.png);
+}
+.flash-message-error{
+    width: 438px;
+    height: 174px;
+    right: 40px;
+    bottom: 104px;
+    background: url(./../../static/icons/flash-message-error.png);
+}
+.flash-message-success .flash-message__button-close,
+.flash-message-error .flash-message__button-close{
+    right: 25px;
+    top: 71px;
+}
+
+.flash-message-success-mob{
+    width: 288px;
+    height: 166px;
+    right: 16px;
+    bottom: 16px;
+    background: url(./../../static/icons/flash-message-success-mob.png);
+}
+.flash-message-error-mob{
+    width: 288px;
+    height: 166px;
+    right: 16px;
+    bottom: 16px;
+    background: url(./../../static/icons/flash-message-error-mob.png);
+}
+.flash-message-success-mob .flash-message__button-close,
+.flash-message-error-mob .flash-message__button-close{
+    right: 17px;
+    top: 50px;
+}

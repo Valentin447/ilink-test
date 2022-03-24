@@ -3,6 +3,7 @@
     padding: 24px;
     background-color: var(--light-grey-2);
     cursor: default;
+    width: 100%;
 }
 
 .comment__info{
@@ -54,4 +55,23 @@
     font-size: 14px;
     line-height: 22px;
     color: var(--main-text);
+}
+@media (max-width: 576px) {
+    .comment__user-name{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .comment__date{
+        font-size: 10px;
+        line-height: 14px; 
+        margin-top: 12px;       
+    }
+    .comment__text{
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .comment__info{
+        flex-direction: column;
+        margin-bottom: 12px;
+    }
 }
