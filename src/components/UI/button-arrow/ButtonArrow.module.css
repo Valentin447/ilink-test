@@ -18,14 +18,12 @@
 .arrow-button:hover{
     cursor: pointer;
 }
-.arrow-button:hover .button-arrow-icon{
+.arrow-button:hover .arrow-button-icon{
     stroke: var(--purple);
 }
-
 .arrow-button:disabled{
     background-color: var(--light-grey);
 }
-
 .arrow-button:disabled .arrow-button-icon{
     stroke: var(--grey);
 }

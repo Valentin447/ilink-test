@@ -1,6 +1,6 @@
 import React from 'react';
-import foto from './../../static/img/foto.jpg';
-import woman from './../../static/icons/woman.png';
+import foto from './../../static/img/foto2.jpg';
+import man from './../../static/icons/man.png';
 
 const Presentation = () => {
     return (
@@ -11,20 +11,20 @@ const Presentation = () => {
                     <img className='presentation__foto' src={foto} alt='' />
                     <div className='presentation__card'>
                         <div className='presentation__card-top'>
-                            <h3 className='presentation__name'>Яна Валиева</h3>
-                            <p className='presentation__date'>08.10.1999</p>
+                            <h3 className='presentation__name'>Валентин Михайлов</h3>
+                            <p className='presentation__date'>17.07.1986</p>
                         </div>
                         <div className='presentation__card-data'>
                             <div className='presentation__city'><b>Город:</b>  Томск</div>
-                            <div className='presentation__sex'><div><b>Пол:</b>  женщина</div>
-                                <img className='presentation__sex-icon' src={woman} />
+                            <div className='presentation__sex'><div><b>Пол:</b>  мужской</div>
+                                <img className='presentation__sex-icon' src={man} />
                             </div>
-                            <div className='presentation__age'><b>Возраст:</b>  22</div>
+                            <div className='presentation__age'><b>Возраст:</b>  35</div>
                         </div>
                         <div className='presentation__about-me-div'>
-                            <p className='presentation__about-me'><b>О себе:</b> Всем привет! Меня зовут Яна, мне 22 года, я студент. Учусь на программиста, но хочу стать продуктовым аналитиком. Недавно, например, я начала проходить курс на известной платформе, который поможет мне устроиться на работу моей мечты!<br /><br /><i>BTW: И да, у меня есть милая кошка :)</i></p>
+                            <p className='presentation__about-me'><b>О себе:</b> Всем привет! Меня зовут Валентин, мне 35 года. Я решил сменить направление деятельности с автомобильной на IT. Благо в интернете сейчас много курсов, статей, документации в свободном доступе, было бы желание учиться. Надеюсь что всё получится!<br /><br /><i>BTW: И да, у меня есть кактус :)</i></p>
                         </div>
-                        <div className='presentation__pet'><div><b>Домашнее животное:</b>  есть</div></div>
+                        <div className='presentation__pet'><div><b>Комнатное растение:</b>  есть</div></div>
                     </div>
                 </div>
             </div>

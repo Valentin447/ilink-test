@@ -1,7 +1,6 @@
 import React from 'react';
 import MyButton from './../UI/button/MyButton';
-import avatar from './../../static/img/avatars/no-avatar.jpg';
-import avatar1 from './../../static/img/avatars/user-id-1.jpg';
+import avatar1 from './../../static/img/avatars/user-id-5.jpg';
 import logo from './../../static/icons/ilink-academy.png';
 import classes from './Header.module.css';
 

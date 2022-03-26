@@ -13,8 +13,6 @@
     background: url(./../../static/icons/x.png) no-repeat;
     cursor: pointer;
 }
-
-
 .flash-message-success{
     width: 438px;
     height: 174px;
@@ -34,7 +32,6 @@
     right: 25px;
     top: 71px;
 }
-
 .flash-message-success-mob{
     width: 288px;
     height: 166px;

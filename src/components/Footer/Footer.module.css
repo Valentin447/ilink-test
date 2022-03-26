@@ -3,7 +3,6 @@
     background-color: var(--white);
     z-index: 100;
 }
-
 .footer__container{
     max-width: var(--container);
     display: flex;
@@ -13,7 +12,6 @@
     justify-content: space-between;
     flex-wrap: wrap;
 }
-
 .copyright{
     font-family: 'Gilroy';
     font-style: normal;
@@ -30,7 +28,6 @@
     width: 104px;
     justify-content: space-between;
 }
-
 .footer__linck-vk,
 .footer__linck-reddit,
 .footer__linck-telegram{
@@ -38,7 +35,6 @@
     width: 24px;
     height: 24px;
 }
-
 .footer__linck-vk-icon,
 .footer__linck-reddit-icon,
 .footer__linck-telegram-icon{

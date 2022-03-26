@@ -5,25 +5,21 @@
     cursor: default;
     width: 100%;
 }
-
 .comment__info{
     display: flex;
     justify-content: space-between;
     margin-bottom: 24px;
 }
-
 .comment__avatar-default{
     width: 52px;
     height: 52px;
     background: url(./../../static/img/avatars/no-avatar.jpg);
     border-radius: 2px;
 }
-
 .comment__user{
     display: flex;
     align-items: center;
 }
-
 .comment__user-name{
     width: max-content;
     height: max-content;
@@ -36,7 +32,6 @@
     color: var(--main-text);
     letter-spacing: -0.0124em;
 }
-
 .comment__date{
     width: max-content;
     height: max-content;
@@ -47,7 +42,6 @@
     line-height: 22px;
     color: var(--grey);
 }
-
 .comment__text{
     font-family: 'Gilroy';
     font-style: normal;

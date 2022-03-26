@@ -16,7 +16,7 @@
     justify-content: center;
 }
 .my-button span{
-    z-index: 100;
+    z-index: 1;
 }
 .my-button::after{
     content: '';

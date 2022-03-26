@@ -97,7 +97,7 @@
     top: 2px;
     display: block;
     height: 18px;
-    width: 10px;
+    width: 16px;
     margin-left: 10px;
 }
 .presentation__about-me-div{
@@ -114,8 +114,8 @@
 .presentation__pet::before{
     content: '';
     display: inline-flex;
-    background: url(./../../static/icons/dog-food.png) no-repeat;
-    height: 23px;
+    background: url(./../../static/icons/flower.png) no-repeat;
+    height: 32px;
     width: 32px;
     padding-right: 44px;
 }

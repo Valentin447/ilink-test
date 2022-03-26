@@ -30,20 +30,17 @@
     text-overflow: clip;
     overflow: hidden;
 }
-
 .header__avatar {
     width: 52px;
     height: 52px;
     border: 1px solid var(--light-grey);
     background-color: var(--white);
 }
-
 .header__logo-wrap {
     position: absolute;
     left: 0;
     right: 0;
 }
-
 .header__logo {
     display: block;
     margin: 0 auto;

@@ -15,7 +15,6 @@
     background-color: var(--white);
     z-index: 1;
 }
-
 .slider__container {
     max-width: var(--container);
     margin: 0 auto;

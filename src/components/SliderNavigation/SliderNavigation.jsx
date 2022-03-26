@@ -13,7 +13,6 @@ const Slidernavigation = (props) => {
         }
         return arrayComponents;
     }
-    console.log(navComponents());
     return (
         <div className='slider__navigation'>
             {navComponents()}

@@ -11,34 +11,27 @@ import Presentation from './components/Presentation/Presentation';
 import backgroundImg from './static/icons/vector.svg';
 import Form from './components/Form/Form';
 import Flashmessage from './components/FlashMessage/FlashMessage';
+import { Context } from './context';
 
 
 function App() {
-  const [button, setButton] = useState('');
+  const [displayForm, setDisplayForm] = useState('none');
+  const [filterBlur, setFilterBlur] = useState('none');
+  const [displayBlackout, setDisplayBlackout] = useState('none');
 
   return (
     <div className='App'>
-      {/* <Form /> */}
-      <div className='blackout'></div>
-      <div className='blur'>
-        {/* <Flashmessage classMod='flash-message-success-mob'/> */}
-        <img className='background-img' src={backgroundImg} alt='' />
-
-        <Header name="Яна Валиева" />
-        <Presentation />
-        <Slider />
-
-        {/* <Comment userName="Буба Бубенцов" avatar={avatarUser4} date='08.01.2022'>Отличный коллектив, руководители понимают сам процесс работы каждого сотрудника и помогают всем без исключения. Система KPI позволяет реально хорошо зарабатывать по простому принципу - чем больше и лучше ты работаешь, тем больше денег получаешь. Соцпакет - отличная страховка ДМС, организовали курсы английского языка бесплатно, оплачивают тренажерный зал. Зарплату выплачивают всегда вовремя.</Comment>
-        <MyButton classMod="button_1" disabled='disabled'>BUTTON</MyButton>
-        <MyButton classMod="button_2">BUTTON</MyButton>
-        <MyButton classMod="button_icon">BUTTON</MyButton>
-        <form>
-          <MyInput classmod="myInput_mod_error" type="text" placeholder="Placeholder" label="Input" error="Error" counter={'0/200'}/>
-          <Multilineinput classmod="" type="text"  placeholder="Placeholder" label="Input"/>
-          <MyInput classmod="" type="text" placeholder="Placeholder" label="Input"/>
-        </form> */}
-        <Footer />
-      </div>
+      <Context.Provider value={{ displayForm, setDisplayForm }}>
+        <Form setFilterBlur={setFilterBlur} setDisplayBlackout={setDisplayBlackout}/>
+        <div className='blackout' style={{display: displayBlackout}}></div>
+        <div className='blur' style={{filter: filterBlur}}>
+          <img className='background-img' src={backgroundImg} alt='' />
+          <Header name="Валентин Михайлов" />
+          <Presentation />
+          <Slider setFilterBlur={setFilterBlur} setDisplayBlackout={setDisplayBlackout}/>
+          <Footer />
+        </div>
+      </Context.Provider>
     </div>
   );
 }
